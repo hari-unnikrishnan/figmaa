@@ -1,0 +1,2018 @@
+
+:root {
+  --applecomblack-80: rgba(0, 0, 0, 0.8);
+  --apple-com-arial-bold-font-family: "Arial", Helvetica;
+  --apple-com-arial-bold-font-weight: 700;
+  --apple-com-arial-bold-font-size: 19.0625px;
+  --apple-com-arial-bold-letter-spacing: 0px;
+  --apple-com-arial-bold-line-height: 22px;
+  --apple-com-arial-bold-font-style: normal;
+  --apple-com-arial-narrow-font-family: "Arial", Helvetica;
+  --apple-com-arial-narrow-font-weight: 400;
+  --apple-com-arial-narrow-font-size: 28px;
+  --apple-com-arial-narrow-letter-spacing: 0.19599999487400055px;
+  --apple-com-arial-narrow-line-height: 32px;
+  --apple-com-arial-narrow-font-style: normal;
+  --apple-com-arial-narrow-underline-font-family: "Arial", Helvetica;
+  --apple-com-arial-narrow-underline-font-weight: 400;
+  --apple-com-arial-narrow-underline-font-size: 14px;
+  --apple-com-arial-narrow-underline-letter-spacing: -0.37400001287460327px;
+  --apple-com-arial-narrow-underline-line-height: 20.59000015258789px;
+  --apple-com-arial-narrow-underline-font-style: normal;
+  --apple-com-semantic-heading-2-font-family: "Arial", Helvetica;
+  --apple-com-semantic-heading-2-font-weight: 700;
+  --apple-com-semantic-heading-2-font-size: 51.625px;
+  --apple-com-semantic-heading-2-letter-spacing: -0.2800000011920929px;
+  --apple-com-semantic-heading-2-line-height: 60px;
+  --apple-com-semantic-heading-2-font-style: normal;
+  --apple-com-semantic-heading-3-font-family: "Arial", Helvetica;
+  --apple-com-semantic-heading-3-font-weight: 700;
+  --apple-com-semantic-heading-3-font-size: 36.875px;
+  --apple-com-semantic-heading-3-letter-spacing: 0px;
+  --apple-com-semantic-heading-3-line-height: 44px;
+  --apple-com-semantic-heading-3-font-style: normal;
+  --apple-com-semantic-item-font-family: "Arial", Helvetica;
+  --apple-com-semantic-item-font-weight: 400;
+  --apple-com-semantic-item-font-size: 12px;
+  --apple-com-semantic-item-letter-spacing: -0.11999999731779099px;
+  --apple-com-semantic-item-line-height: 16px;
+  --apple-com-semantic-item-font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* add */
+.frame {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 98px;
+  position: relative;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #e4e4e4;
+}
+
+.frame .div {
+  display: flex;
+  width: 1393px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .layer {
+  position: relative;
+  width: 190px;
+  height: 50px;
+}
+
+.frame .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 46px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: 10px;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.80px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.frame .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame .frame-wrapper {
+  display: inline-flex;
+  gap: 24px;
+  background-color: #ffffff;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .book-now-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 26px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .book-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.80px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+
+
+
+.moonlight {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.moonlight .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 11244px;
+  position: relative;
+}
+
+.moonlight .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 1275px;
+  top: 3171px;
+  left: 0;
+  background-color: #fff7f2;
+}
+
+.moonlight .overlap-group {
+  position: absolute;
+  width: 1527px;
+  height: 643px;
+  top: 511px;
+  left: 196px;
+}
+
+.moonlight .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+}
+
+.moonlight .group {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  transform: rotate(180deg);
+}
+
+.moonlight .arrow-arrow-down-wrapper {
+  position: relative;
+  height: 56px;
+  background-color: #ffffff;
+  border-radius: 28px;
+}
+
+.moonlight .arrow-arrow-down {
+  position: absolute;
+  width: 24px;
+  height: 36px;
+  top: 10px;
+  left: 16px;
+  transform: rotate(-180deg);
+}
+
+.moonlight .group-2 {
+  position: relative;
+  width: 280.56px;
+  height: 280.56px;
+  background-image: url(./img/mask-group.png);
+  background-size: 100% 100%;
+}
+
+/* .moonlight .mask-group-wrapper {
+  position: relative;
+  width: 574px;
+  height: 571px;
+} */
+
+.moonlight .mask-group {
+  position: absolute;
+  width: 554px;
+  height: 554px;
+  top: 0;
+  left: 10px;
+}
+
+.moonlight .group-3 {
+  position: relative;
+  width: 280.56px;
+  height: 280.56px;
+  background-image: url(./img/mask-group-2.png);
+  background-size: 100% 100%;
+}
+
+.moonlight .group-wrapper {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.moonlight .img {
+  position: absolute;
+  width: 24px;
+  height: 36px;
+  top: 10px;
+  left: 16px;
+}
+
+.moonlight .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 281px;
+  align-items: center;
+  gap: 22px;
+  position: absolute;
+  top: 366px;
+  left: 624px;
+  bottom: 21px;
+}
+
+.moonlight .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2429;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 33px;
+  white-space: nowrap;
+}
+
+.moonlight .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Manrope-Medium", Helvetica;
+  font-weight: 500;
+  color: #8a8a8a;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.56px;
+  line-height: 14px;
+}
+
+.moonlight .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-3 {
+  width: fit-content;
+  margin-top: -1.00px;
+  color: #e72799;
+  font-size: 38px;
+  line-height: 38px;
+  white-space: nowrap;
+  position: relative;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.moonlight .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 1091px;
+  align-items: center;
+  gap: 64px;
+  position: absolute;
+  top: 140px;
+  left: 415px;
+}
+
+.moonlight .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 654px;
+  align-items: center;
+  gap: 21px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #030000;
+  font-size: 29px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-right: 393px;
+}
+
+.moonlight .delightful-selection {
+  position: relative;
+  align-self: stretch;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 68px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 68px;
+}
+
+.moonlight .frame-6 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-7 {
+  display: flex;
+  width: 125px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  position: relative;
+  background-color: #fff3fa;
+  border: 1px solid;
+  border-color: #e72799;
+}
+
+.moonlight .text-wrapper-5 {
+  position: relative;
+  width: 196px;
+  margin-left: -7.00px;
+  margin-right: -7.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #e72799;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.moonlight .frame-8 {
+  display: flex;
+  width: 184px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  position: relative;
+  border: 1px solid;
+  border-color: #b199a7;
+}
+
+.moonlight .text-wrapper-6 {
+  position: relative;
+  width: 196px;
+  margin-left: -61px;
+  margin-right: -53px;
+  margin-top: 4px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #5b5458;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+
+}
+.text-image-6{
+  position: relative;
+  width: 196px;
+  margin-left: -224px;
+  margin-right: -53px;
+  margin-top: 298px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #5b5458;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.moonlight .ice-cream-gelato {
+  position: relative;
+  width: fit-content;
+  margin-left: -5.00px;
+  margin-right: -5.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #5b5458;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.moonlight .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #5b5458;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.moonlight .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 892px;
+  top: 92px;
+  left: 0;
+  background-image: url(./img/image.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.moonlight .frame-9 {
+  position: absolute;
+  width: 670px;
+  height: 313px;
+  top: 291px;
+  left: 44px;
+}
+
+.moonlight .group-4 {
+  position: absolute;
+  width: 126px;
+  height: 126px;
+  top: 693px;
+  left: 897px;
+}
+
+.moonlight .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 731px;
+  align-items: center;
+  gap: 28px;
+  position: absolute;
+  top: 2005px;
+  left: 595px;
+}
+
+.moonlight .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.moonlight .text-wrapper-8 {
+  position: relative;
+  width: 646px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.16px;
+  line-height: 25.6px;
+}
+
+.moonlight .group-5 {
+  position: absolute;
+  width: 1600px;
+  height: 740px;
+  top: 2281px;
+  left: 160px;
+}
+
+.moonlight .frame-11 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 7px;
+  left: 307px;
+}
+
+.moonlight .vector {
+  position: relative;
+  width: 383px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.moonlight .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #030000;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+  margin-top: -255px;
+}
+
+.moonlight .frame-12 {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  top: 99px;
+  left: 0;
+}
+
+.moonlight .image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  margin-bottom: 10px;
+}
+
+.moonlight .frame-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-14 {
+  display: flex;
+  flex-direction: column;
+  width: 321px;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-10 {
+  position: relative;
+  width: 314px;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2429;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.moonlight .text-wrapper-11 {
+  position: relative;
+  width: 314px;
+  font-family: "Manrope-Medium", Helvetica;
+  font-weight: 500;
+  color: #8a8a8a;
+  font-size: 14px;
+  letter-spacing: 0.56px;
+  line-height: 14px;
+}
+
+.moonlight .frame-15 {
+  display: flex;
+  align-items: center;
+  gap: 192px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-12 {
+  width: 144px;
+  color: #030000;
+  font-size: 28px;
+  line-height: 28px;
+  position: relative;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.moonlight .group-6 {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin-bottom: -2677.00px;
+  margin-right: -800.00px;
+}
+
+.moonlight .frame-16 {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  top: 99px;
+  left: 404px;
+}
+
+.moonlight .group-7 {
+  margin-right: -396.00px;
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin-bottom: -2677.00px;
+}
+
+.moonlight .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  top: 99px;
+  left: 808px;
+}
+
+.moonlight .group-8 {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin-bottom: -2677.00px;
+}
+
+.moonlight .frame-18 {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  top: 99px;
+  left: 1212px;
+}
+
+.moonlight .group-9 {
+  margin-left: -76.00px;
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin-bottom: -2677.00px;
+}
+
+.moonlight .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 0;
+  left: 1472px;
+}
+
+.moonlight .img-wrapper {
+  background-color: #f8f2ee;
+  position: relative;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.moonlight .frame-20 {
+  position: absolute;
+  width: 1920px;
+  height: 945px;
+  top: -91px;
+  left: 0;
+}
+
+.moonlight .group-10 {
+  position: absolute;
+  width: 1724px;
+  height: 767px;
+  top: 1118px;
+  left: 98px;
+}
+
+.moonlight .image-2 {
+  position: absolute;
+  width: 790px;
+  height: 767px;
+  top: 0;
+  left: 934px;
+  object-fit: cover;
+}
+
+.moonlight .overlap-group-2 {
+  position: absolute;
+  width: 934px;
+  height: 767px;
+  top: 0;
+  left: 0;
+  background-color: #ffeee7;
+}
+
+.moonlight .group-11 {
+  position: relative;
+  width: 666px;
+  height: 464px;
+  top: 151px;
+  left: 152px;
+}
+
+.moonlight .frame-21 {
+  display: flex;
+  flex-direction: column;
+  width: 664px;
+  align-items: flex-start;
+  gap: 44px;
+  position: absolute;
+  top: 65px;
+  left: 0;
+}
+
+.moonlight .frame-22 {
+  display: flex;
+  flex-direction: column;
+  height: 289px;
+  align-items: flex-start;
+  gap: 34px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.moonlight .text-wrapper-13 {
+  position: relative;
+  width: 664px;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 68px;
+  letter-spacing: 0;
+  line-height: 68px;
+}
+
+.moonlight .text-wrapper-14 {
+  position: relative;
+  width: 550px;
+  height: 133px;
+  margin-bottom: -13.00px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 25.6px;
+}
+
+.moonlight .frame-23 {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #000000;
+  margin-top: 70px;
+}
+
+.moonlight .book-table-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  
+}
+
+.moonlight .book-table {
+  color: #030000;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.90px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.moonlight .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #030000;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+}
+
+.moonlight .group-12 {
+  position: absolute;
+  width: 1920px;
+  height: 870px;
+  top: 6319px;
+  left: 0;
+}
+
+.moonlight .overlap-3 {
+  position: absolute;
+  width: 972px;
+  height: 870px;
+  top: 0;
+  left: 0;
+  background-color: #ffeee8;
+}
+
+.moonlight .frame-24 {
+  display: flex;
+  flex-direction: column;
+  width: 671px;
+  align-items: flex-start;
+  gap: 42px;
+  position: relative;
+  top: 182px;
+  left: 244px;
+}
+
+.moonlight .frame-25 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-left: -191px;
+}
+
+.moonlight .text-wrapper-16 {
+  position: relative;
+  width: 618px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 68px;
+  letter-spacing: 0;
+  line-height: 68px;
+}
+
+.moonlight .text-wrapper-17 {
+  position: relative;
+  width: 563px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 25.6px;
+}
+
+.moonlight .frame-27 {
+  display: flex;
+  width: 183px;
+  height: 66px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 40px;
+  position: relative;
+  background-color: #e62799;
+}
+
+.moonlight .book-event {
+  margin-left: -2.00px;
+  margin-right: -2.00px;
+  color: #ffffff;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.90px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.moonlight .element {
+  position: absolute;
+  width: 948px;
+  height: 870px;
+  top: 0;
+  left: 972px;
+}
+
+.moonlight .group-13 {
+  position: absolute;
+  width: 1528px;
+  height: 713px;
+  top: 5406px;
+  left: 244px;
+}
+
+.moonlight .image-3 {
+  position: absolute;
+  width: 704px;
+  height: 713px;
+  top: 0;
+  left: -137px;
+  object-fit: cover;
+}
+
+.moonlight .frame-28 {
+  display: flex;
+  flex-direction: column;
+  width: 654px;
+  align-items: flex-start;
+  gap: 49px;
+  position: absolute;
+  top: 56px;
+  left: 874px;
+}
+
+.moonlight .frame-29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-18 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 68px;
+  margin-left: -90px;
+}
+
+.moonlight .text-wrapper-19 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 25.6px;
+  margin-left:-215px;
+}
+
+.moonlight .text-wrapper-20 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.90px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.moonlight .frame-30 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 4684px;
+  left: 746px;
+}
+
+.moonlight .overlap-4 {
+  position: absolute;
+  /* width: 413px; */
+  /* height: 503px; */
+  top: 4335px;
+  /* left: 98px;
+  background-image: url(./img/image-2.png);
+  background-size: cover;
+  background-position: 50% 50%; */
+}
+
+.moonlight .frame-31 {
+  display: flex;
+  width: 242px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  position: relative;
+  top: 402px;
+  left: 86px;
+  background-color: #ffffff;
+}
+
+.moonlight .overlap-5 {
+  position: absolute;
+  /* width: 413px;
+  height: 500px; */
+  top:4335px;
+  left: 414px;
+  /* background-image: url(./img/image-7.png);
+  background-size: cover;
+  background-position: 50% 50%; */
+}
+
+.moonlight .frame-32 {
+  display: flex;
+  width: 242px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  position: relative;
+  top: 401px;
+  left: 86px;
+  background-color: #ffffff;
+}
+
+.moonlight .overlap-6 {
+  position: absolute;
+  /* width: 413px;
+  height: 500px; */
+  top: 4335px;
+  left: 779px;
+  /* background-image: url(./img/image.png);
+  background-size: 100% 100%; */
+}
+
+.moonlight .overlap-7 {
+  position: absolute;
+  /* width: 413px;
+  height: 500px; */
+  top: 4332px;
+  left: 1108px;
+  /* background-image: url(./img/image-6.png);
+  background-size: 100% 100%; */
+}
+
+.moonlight .frame-33 {
+  display: flex;
+  flex-direction: column;
+  width: 1633px;
+  align-items: center;
+  gap: 96px;
+  position: absolute;
+  top: 7359px;
+  left: 144px;
+}
+
+.moonlight .frame-34 {
+  display: flex;
+  align-items: center;
+  /* gap: 50px; */
+  position: relative;
+  /* align-self: stretch; */
+  width: 100%;
+  flex: 0 0 auto;
+  margin-right: 244px;
+}
+
+.moonlight .group-14 {
+  background-color: #f9f3ee;
+  position: relative;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.moonlight .frame-35 {
+  display: flex;
+  width: 1359px;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+
+.moonlight .frame-36 {
+  display: flex;
+  flex-direction: column;
+  width: 437px;
+  height: 408px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 40px 30px 39px;
+  position: relative;
+  background-color: #fffbf8;
+}
+
+.moonlight .frame-37 {
+  display: flex;
+  flex-direction: column;
+  width: 379px;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -2.00px;
+}
+
+.moonlight .frame-38 {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .ellipse {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.moonlight .frame-39 {
+  display: flex;
+  flex-direction: column;
+  width: 121px;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+}
+
+.moonlight .text-wrapper-21 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Manrope-Medium", Helvetica;
+  font-weight: 500;
+  color: #030000;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  line-height: 28.8px;
+}
+
+.moonlight .text-wrapper-22 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  line-height: 25.6px;
+}
+
+.moonlight .frame-40 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-41 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-23 {
+  position: relative;
+  width: 379px;
+  font-family: "Manrope-Light", Helvetica;
+  font-weight: 300;
+  color: #030000;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  line-height: 25.6px;
+}
+
+.moonlight .frame-42 {
+  display: flex;
+  flex-direction: column;
+  width: 379px;
+  height: 329px;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  margin-right: -2.00px;
+}
+
+.moonlight .overlap-8 {
+  position: absolute;
+  width: 1920px;
+  height: 791px;
+  top: 10453px;
+  left: 1px;
+  background-color: #fff7f4;
+}
+
+.moonlight .frame-43 {
+  display: flex;
+  flex-direction: column;
+  width: 549px;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  top: 76px;
+  left: 684px;
+}
+
+.moonlight .layer {
+  position: relative;
+  width: 266px;
+  height: 70px;
+}
+
+.moonlight .frame-44 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-45 {
+  display: flex;
+  flex-direction: column;
+  width: 529px;
+  align-items: center;
+  gap: 42px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-24 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #030000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.moonlight .frame-46 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-47 {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .line {
+  position: relative;
+  width: 322px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.moonlight .text-wrapper-25 {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-family: "Manrope-Light", Helvetica;
+  font-weight: 300;
+  color: #948a7d;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.moonlight .frame-48 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-49 {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2429;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.moonlight .frame-50 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-27 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.90px;
+  line-height: normal;
+}
+
+.moonlight .text-wrapper-28 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.90px;
+  line-height: normal;
+}
+
+.moonlight .frame-51 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-52 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-53 {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-29 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.90px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.moonlight .text-wrapper-30 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #030000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 12.8px;
+}
+
+.moonlight .group-15 {
+  position: absolute;
+  width: 1262px;
+  height: 179px;
+  top: 10074px;
+  left: 124px;
+}
+
+.moonlight .frame-54 {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  align-items: center;
+  gap: 31px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.moonlight .frame-55 {
+  position: relative;
+  width: 77.52px;
+  height: 77.52px;
+}
+
+.moonlight .text-wrapper-31 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2429;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.moonlight .frame-56 {
+  display: flex;
+  flex-direction: column;
+  width: 203px;
+  align-items: center;
+  gap: 38px;
+  position: absolute;
+  top: 5px;
+  left: 550px;
+}
+
+.moonlight .emojis-slightly {
+  position: relative;
+  width: 62.02px;
+  height: 62.02px;
+  overflow: hidden;
+}
+
+.moonlight .icon-frame {
+  position: relative;
+  width: 62px;
+  height: 62px;
+}
+
+.moonlight .base {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: -4433px;
+  left: 31px;
+}
+
+.moonlight .overlap-group-3 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 7px;
+  left: 7px;
+  border-radius: 24.26px;
+  border: 2px solid;
+  border-color: #e72799;
+}
+
+.moonlight .rectangle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 13px;
+  left: 12px;
+}
+
+.moonlight .rectangle-2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 13px;
+  left: 28px;
+}
+
+.moonlight .ellipse-2 {
+  position: absolute;
+  width: 20px;
+  height: 7px;
+  top: 26px;
+  left: 12px;
+}
+
+.moonlight .frame-57 {
+  display: flex;
+  flex-direction: column;
+  width: 202px;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 0;
+  left: 1060px;
+}
+
+.moonlight .vuesax-linear-heart {
+  position: relative;
+  width: 60.58px;
+  height: 60.58px;
+}
+
+.moonlight .frame-58 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .text-wrapper-32 {
+  position: relative;
+  width: 182px;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2429;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.moonlight .vector-2 {
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  top: 5px;
+  left: 424px;
+}
+
+.moonlight .vector-3 {
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  top: 5px;
+  left: 892px;
+}
+
+.moonlight .frame-59 {
+  display: flex;
+  flex-direction: column;
+  width: 1432px;
+  align-items: center;
+  gap: 84px;
+  position: absolute;
+  top: 8947px;
+  left: 244px;
+}
+
+.moonlight .frame-60 {
+  display: flex;
+  flex-direction: column;
+  width: 667px;
+  align-items: center;
+  gap: 38px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-61 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16.13px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-62 {
+  display: flex;
+  align-items: center;
+  gap: 16.13px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-left: -195px;
+}
+
+.moonlight .rectangle-3 {
+  position: relative;
+  width: 345.89px;
+  height: 345.89px;
+  object-fit: cover;
+}
+
+.moonlight .rectangle-4 {
+  position: relative;
+  width: 345.89px;
+  height: 345.89px;
+}
+
+.moonlight .overlap-9 {
+  position: absolute;
+  width: 657px;
+  height: 635px;
+  top: 8092px;
+  left: 244px;
+  background-image: url(./img/image-5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.moonlight .ellipse-3 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 314px;
+  left: 322px;
+  background-color: #e72799;
+  border-radius: 9.5px;
+}
+
+.moonlight .ellipse-4 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 117px;
+  left: 110px;
+  background-color: #e72799;
+  border-radius: 9px;
+}
+
+.moonlight .frame-63 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 8px 22px;
+  position: absolute;
+  top: 274px;
+  left: 354px;
+  background-color: #ffffff;
+}
+
+.moonlight .frame-64 {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  align-items: center;
+  gap: 26px;
+  position: relative;
+}
+
+.moonlight .image-4 {
+  position: relative;
+  align-self: stretch;
+  width: 245px;
+  height: 145px;
+  object-fit: cover;
+}
+
+.moonlight .frame-65 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 67%;
+  flex: 0 0 auto;
+  margin-top: -106px;
+  margin-left: 67px;
+}
+
+.moonlight .moonlight-manchester {
+  position: relative;
+  width: 146px;
+  font-family: "Manrope-Medium", Helvetica;
+  font-weight: 500;
+  color: #030000;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 19.6px;
+}
+
+.moonlight .frame-66 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-left: -8px;
+}
+
+.moonlight .frame-67 {
+  display: flex;
+  flex-direction: column;
+  width: 667px;
+  align-items: flex-start;
+  gap: 70px;
+  position: absolute;
+  top: 8132px;
+  left: 1041px;
+}
+
+.moonlight .frame-68 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-69 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .frame-70 {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.moonlight .working-hours {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 1.10px;
+  line-height: 22px;
+}
+
+.moonlight .everyday-from-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.moonlight .everyday-from {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Forum-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.90px;
+  line-height: 32.4px;
+}
+
+
+
+
+
+.slider-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%; /* Adjust based on your container */
+  height: 200px; /* Adjust based on your image size */
+  position: relative;
+}
+
+.image-wrapper {
+  width: 200px; /* Adjust based on your image size */
+  height: 200px; /* Adjust based on your image size */
+  margin-right: 10px; /* Optional spacing between images */
+  animation: slide-in 1.5s ease-in-out forwards;
+  opacity: 0; /* Start invisible */
+  /* margin: 10px; */
+  margin-bottom: 10px;
+  margin-left: 127px;
+  margin-right: 10px;
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide-in {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Delays for each image */
+.image-wrapper:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.image-wrapper:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.image-wrapper:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.image-wrapper:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+
+
+
+
+/* .image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  margin-bottom: 10px;
+} */
